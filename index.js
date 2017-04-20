@@ -8,7 +8,9 @@ const _eventHandlers = {
   'tokenSetup': new Map(),
   'onvoicenotificationerror': new Map(),
   'oncallinvitecanceled': new Map(),
-  'oncalldidconnect': new Map()
+  'oncalldidconnect': new Map(),
+  'oncalldiddisconnect': new Map(),
+  'calldidfailwitherror': new Map()
 };
 
 const Twilio = {

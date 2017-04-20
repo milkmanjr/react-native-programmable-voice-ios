@@ -1,20 +1,78 @@
-
 {
-  "name": "react-native-prog-voice",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "react-native-prog-voice@git+ssh://git@github.com/milkmanjr/react-native-programmable-voice-ios.git",
+        "scope": null,
+        "escapedName": "react-native-prog-voice",
+        "name": "react-native-prog-voice",
+        "rawSpec": "git+ssh://git@github.com/milkmanjr/react-native-programmable-voice-ios.git",
+        "spec": "git+ssh://git@github.com/milkmanjr/react-native-programmable-voice-ios.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:milkmanjr/react-native-programmable-voice-ios.git",
+          "sshUrl": "git+ssh://git@github.com/milkmanjr/react-native-programmable-voice-ios.git",
+          "httpsUrl": "git+https://github.com/milkmanjr/react-native-programmable-voice-ios.git",
+          "gitUrl": "git://github.com/milkmanjr/react-native-programmable-voice-ios.git",
+          "shortcut": "github:milkmanjr/react-native-programmable-voice-ios",
+          "directUrl": "https://raw.githubusercontent.com/milkmanjr/react-native-programmable-voice-ios/master/package.json"
+        }
+      },
+      "/Users/malcolmtyson/repos/fiveminutos"
+    ]
+  ],
+  "_from": "git+ssh://git@github.com/milkmanjr/react-native-programmable-voice-ios.git",
+  "_id": "react-native-prog-voice@1.0.0",
+  "_inCache": true,
+  "_location": "/react-native-prog-voice",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-prog-voice@git+ssh://git@github.com/milkmanjr/react-native-programmable-voice-ios.git",
+    "scope": null,
+    "escapedName": "react-native-prog-voice",
+    "name": "react-native-prog-voice",
+    "rawSpec": "git+ssh://git@github.com/milkmanjr/react-native-programmable-voice-ios.git",
+    "spec": "git+ssh://git@github.com/milkmanjr/react-native-programmable-voice-ios.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:milkmanjr/react-native-programmable-voice-ios.git",
+      "sshUrl": "git+ssh://git@github.com/milkmanjr/react-native-programmable-voice-ios.git",
+      "httpsUrl": "git+https://github.com/milkmanjr/react-native-programmable-voice-ios.git",
+      "gitUrl": "git://github.com/milkmanjr/react-native-programmable-voice-ios.git",
+      "shortcut": "github:milkmanjr/react-native-programmable-voice-ios",
+      "directUrl": "https://raw.githubusercontent.com/milkmanjr/react-native-programmable-voice-ios/master/package.json"
+    }
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/milkmanjr/react-native-programmable-voice-ios.git#6a251b376d50037d3b36ffa389bd36b88ebb86dc",
+  "_shasum": "130d0eb885cd027597fae884f826c2e6b83ed2f3",
+  "_shrinkwrap": null,
+  "_spec": "react-native-prog-voice@git+ssh://git@github.com/milkmanjr/react-native-programmable-voice-ios.git",
+  "_where": "/Users/malcolmtyson/repos/fiveminutos",
+  "author": "",
+  "dependencies": {},
+  "description": "## Getting started",
+  "devDependencies": {},
+  "gitHead": "6a251b376d50037d3b36ffa389bd36b88ebb86dc",
   "keywords": [
     "react-native"
   ],
-  "author": "",
   "license": "",
+  "main": "index.js",
+  "name": "react-native-prog-voice",
+  "optionalDependencies": {},
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
-
-  }
+  },
+  "readme": "\n# react-native-prog-voice\n\n## Getting started\n\n`$ npm install react-native-prog-voice --save`\n\n### Mostly automatic installation\n\n`$ react-native link react-native-prog-voice`\n\n### Manual installation\n\n\n#### iOS\n\n1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`\n2. Go to `node_modules` ➜ `react-native-prog-voice` and add `RNProgVoice.xcodeproj`\n3. In XCode, in the project navigator, select your project. Add `libRNProgVoice.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`\n4. Run your project (`Cmd+R`)<\n\n#### Android\n\n1. Open up `android/app/src/main/java/[...]/MainActivity.java`\n  - Add `import com.reactlibrary.RNProgVoicePackage;` to the imports at the top of the file\n  - Add `new RNProgVoicePackage()` to the list returned by the `getPackages()` method\n2. Append the following lines to `android/settings.gradle`:\n  \t```\n  \tinclude ':react-native-prog-voice'\n  \tproject(':react-native-prog-voice').projectDir = new File(rootProject.projectDir, \t'../node_modules/react-native-prog-voice/android')\n  \t```\n3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:\n  \t```\n      compile project(':react-native-prog-voice')\n  \t```\n\n#### Windows\n[Read it! :D](https://github.com/ReactWindows/react-native)\n\n1. In Visual Studio add the `RNProgVoice.sln` in `node_modules/react-native-prog-voice/windows/RNProgVoice.sln` folder to their solution, reference from their app.\n2. Open up your `MainPage.cs` app\n  - Add `using Com.Reactlibrary.RNProgVoice;` to the usings at the top of the file\n  - Add `new RNProgVoicePackage()` to the `List<IReactPackage>` returned by the `Packages` method\n\n\n## Usage\n```javascript\nimport RNProgVoice from 'react-native-prog-voice';\n\n// TODO: What to do with the module?\nRNProgVoice;\n```\n  ",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }

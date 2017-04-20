@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A87FFB001E9046D60070A72C /* TwilioVoiceClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87FFA801E902BF90070A72C /* TwilioVoiceClient.framework */; };
+		A8B0388A1EA2586300C066BE /* TwilioVoice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B038891EA2586300C066BE /* TwilioVoice.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNProgVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNProgVoice.m */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +26,7 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNProgVoice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNProgVoice.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87FFA801E902BF90070A72C /* TwilioVoiceClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioVoiceClient.framework; sourceTree = "<group>"; };
+		A8B038891EA2586300C066BE /* TwilioVoice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioVoice.framework; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNProgVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNProgVoice.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNProgVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNProgVoice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A87FFB001E9046D60070A72C /* TwilioVoiceClient.framework in Frameworks */,
+				A8B0388A1EA2586300C066BE /* TwilioVoice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +58,7 @@
 				B3E7B5881CC2AC0600A0062D /* RNProgVoice.h */,
 				B3E7B5891CC2AC0600A0062D /* RNProgVoice.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				A8B038881EA2586300C066BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +68,14 @@
 				A87FFA801E902BF90070A72C /* TwilioVoiceClient.framework */,
 			);
 			name = libs;
+			sourceTree = "<group>";
+		};
+		A8B038881EA2586300C066BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8B038891EA2586300C066BE /* TwilioVoice.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
